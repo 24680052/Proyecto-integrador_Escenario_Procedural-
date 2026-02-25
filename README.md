@@ -140,7 +140,8 @@ Blender generará el video final.
 
 # Codigo completo
 
-`import bpy
+```
+import bpy
 import math
 
 def crear_material(nombre, color_rgb):
@@ -239,8 +240,9 @@ def crear_animacion(posiciones):
         frame += 10
 
 
-generar_puente() 
-`
+generar_puente()
+
+```
 
 # EXPLICACIÓN COMPLETA DEL CÓDIGO
 ## 1. Importación de módulos
@@ -461,5 +463,12 @@ Dar click a animar camara
 
 Empezara a animarse la camara 
 <img width="495" height="378" alt="{6E17963B-328F-4E4D-95F3-DDF5CF9B4A95}" src="https://github.com/user-attachments/assets/5b35fc14-68fa-4db6-b9ee-2c23c9ef3bb6" />
+
+Y se lograra apreciar como se mueve la camara por toda la pista 
+
+
+
+https://github.com/user-attachments/assets/2289145a-1af0-4668-8b25-498217d1b0b7 
+
 
 
